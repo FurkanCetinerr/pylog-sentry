@@ -1,0 +1,20 @@
+{
+    "log_file_path": "sample_logs/access.log",
+    "alerts_log_path": "alerts.log",
+    "rules": {
+      "high_request_threshold": 5,
+      "error_code_threshold": 3,
+      "suspicious_url_patterns": [
+        "wp-login",
+        "wp-admin",
+        "../../",
+        "etc/passwd",
+        ".env",
+        "sqlmap",
+        "shell.php",
+        "cmd.aspx"
+      ],
+      "monitored_error_codes": [403, 404]
+    }
+  }
+  

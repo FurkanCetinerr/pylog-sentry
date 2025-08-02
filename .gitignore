@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Log ve Rapor Dosyaları
+*.log
+*.csv
+*.xml
+
+# IDE ve Sistem Dosyaları
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
