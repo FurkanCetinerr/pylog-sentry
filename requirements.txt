@@ -1,0 +1,8 @@
+This project does not currently require an external Python library.
+
+All used modules (json, os, re, datetime, collections) are part of the Python standard library.
+
+If a library that requires pip installation is added to the project in the future, its name should be added to this file.
+
+Example:
+pandas==2.2.2
